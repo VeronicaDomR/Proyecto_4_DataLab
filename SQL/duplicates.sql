@@ -249,3 +249,17 @@ FROM (
 
 ORDER BY 
     column_name ASC;
+
+#duplicates por product_id
+
+-- Identificar y manejar valores duplicados
+SELECT
+  product_id,
+  COUNT(*) AS duplicado
+FROM
+  `proyecto4datalab.amazon.amazon_product`
+GROUP BY
+  product_id
+HAVING
+  COUNT(*) > 1;
+ 
