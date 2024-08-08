@@ -48,7 +48,7 @@ El objetivo de este análisis es entender las tendencias y patrones en las calif
     - product_id: 96
     - discounted_price: 1870
 
-    En la columna product_id, se identificaron 96 valores únicos que originalmente estaban duplicados. Sin embargo, estos valores aparecen duplicados múltiples veces, resultando en un total de 214 duplicados en el dataset. Esto significa que hay 118 duplicados adicionales que no fueron contabilizados inicialmente.
+En la columna product_id, se identificaron 96 valores únicos que originalmente estaban duplicados. Sin embargo, estos valores aparecen duplicados múltiples veces, resultando en un total de 214 duplicados en el dataset. Esto significa que hay 118 duplicados adicionales que no fueron contabilizados inicialmente.
 
 -  *Tabla: amazon_review*   
     - user_id:144
@@ -61,6 +61,9 @@ El objetivo de este análisis es entender las tendencias y patrones en las calif
     - product_id: 92
     - rating: 21
     - rating_count: 204 
+
+En las columnas review_title y review_id, identificamos 144 valores únicos que originalmente estaban duplicados. Sin embargo, estos valores aparecen duplicados múltiples veces, resultando en un total de 415 duplicados en el dataset. 
+Por otro lado, en la columna review_content, identificamos 141 valores únicos que originalmente estaban duplicados. Estos valores también aparecen duplicados múltiples veces, resultando en un total de 394 duplicados en el dataset.
 
 Se analizan las variables para determinar cuales duplicados podrian ser considerados importantes:
 
