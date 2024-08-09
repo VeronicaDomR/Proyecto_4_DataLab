@@ -77,6 +77,7 @@ En la columna product_id, se identificaron 96 valores únicos que originalmente 
     - Variables que se mantuvieron con valores no únicos: A continuación se detallan las variables que no se consideran únicas y que pueden tener múltiples valores por product_id: about_product, discount_percentage, actual_price, category, product_name, discounted_price.
 
 - amazon_review nulos final
+
  ![alt text](images/review_nulls_final.png)
 
 - amazon_review duplicados final
@@ -85,10 +86,12 @@ En la columna product_id, se identificaron 96 valores únicos que originalmente 
 
 
 - amazon_product nulos final
+
  ![alt text](images/product_nulls_final.png)
- 
+
 
 - amazon_product duplicados final
+
  ![alt text](images/product_duplicates_final.png)
 
 ### Identificación y manejo de datos fuera del alcance del análisis
