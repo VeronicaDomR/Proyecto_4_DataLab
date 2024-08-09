@@ -83,8 +83,10 @@ En la columna product_id, se identificaron 96 valores únicos que originalmente 
 
  ![alt text](images/review_duplicates_final.png)
 
+
 - amazon_product nulos final
  ![alt text](images/product_nulls_final.png)
+ 
 
 - amazon_product duplicados final
  ![alt text](images/product_duplicates_final.png)
