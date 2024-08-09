@@ -1,7 +1,6 @@
 # Proyecto 4 DataLab
-Propuesta de automatización del proceso de análisis utilizando técnicas avanzadas de análisis de datos, con el objetivo de mejorar la eficiencia, la precisión y la rapidez en la evaluación de las solicitudes de crédito.
 
-![](imagenes/portada.png)
+![alt text](images/amazon-828x548.jpg)
 
 ## Temas
 
@@ -13,7 +12,8 @@ Propuesta de automatización del proceso de análisis utilizando técnicas avanz
 - [Recursos](#recursos)
 
 ## Objetivo
-El objetivo de este análisis es entender las tendencias y patrones en las calificaciones y reseñas de productos disponibles en Amazon, con el fin de proporcionar insights que puedan ayudar a mejorar la estrategia de precios, descuentos y satisfacción del cliente.
+El objetivo de este análisis es entender las tendencias y patrones en las calificaciones y reseñas de productos disponibles en Amazon, con el fin de proporcionar insights que puedan ayudar a mejorar la satisfacción del cliente.
+
 
 ## Herramientas
 
@@ -35,12 +35,17 @@ El objetivo de este análisis es entender las tendencias y patrones en las calif
  ![alt text](images/image.png)
 
  - *Acciones realizadas:* Se optó por eliminar estos registros dado que ya se contaba con un product_id duplicado.
+
+![alt text](images/duplicates_about_product.png)
  
- 
-  - *Tabla: amazon_review*
+   - *Tabla: amazon_review*
   - img_link: 466 nulls.
   - product_link: 466 nulls.
   - rating_count: 2 nulls.
+
+- *Acciones realizadas:* 
+    - Valores nulos en img_link y product_link: Se decidió mantener los valores nulos en estas columnas ya que no son variables críticas para el análisis.
+    - Imputación de valores en rating_count: Se calcularon las medias de rating_count basadas en los valores de rating. Para el rating de 5, la media fue de 14, mientras que para el rating de 3, la media fue de 467. Estos valores fueron utilizados para imputar los nulos en rating_count.
 
 ### Identificación y Manejo de Valores Duplicados
 
