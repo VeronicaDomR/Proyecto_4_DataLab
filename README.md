@@ -73,4 +73,5 @@ Se analizan las variables para determinar cuales duplicados podrian ser consider
 ### Identificación y manejo de datos fuera del alcance del análisis
 -  *Tabla: amazon_product*  
 Se llevó a cabo una verificación de la consistencia y coherencia de los precios y descuentos registrados en la tabla amazon_product, con el objetivo de identificar y corregir posibles errores en los datos antes de realizar análisis más profundos o tomar decisiones informadas. Esta validación garantiza que los precios y descuentos reflejen con precisión la realidad del producto, preservando la integridad y confiabilidad de los datos.
+Se encontraron 27 product_id, que presentan algún tipo de inconsistencia entre discounted_price, actual_price y discount_percentage
 -  *Tabla: amazon_review*  
