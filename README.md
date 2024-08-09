@@ -31,8 +31,10 @@ El objetivo de este análisis es entender las tendencias y patrones en las calif
 
 -  *Tabla: amazon_product*
   - about_product: 4 nulls.
-
-- *Tabla: amazon_review*
+  
+ ![alt text](images/image.png)
+ 
+  - *Tabla: amazon_review*
   - img_link: 466 nulls.
   - product_link: 466 nulls.
   - rating_count: 2 nulls.
