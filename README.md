@@ -31,8 +31,11 @@ El objetivo de este análisis es entender las tendencias y patrones en las calif
 
 -  *Tabla: amazon_product*
   - about_product: 4 nulls.
-  
+
  ![alt text](images/image.png)
+
+ - *Acciones realizadas:* Se optó por eliminar estos registros dado que ya se contaba con un product_id duplicado.
+ 
  
   - *Tabla: amazon_review*
   - img_link: 466 nulls.
