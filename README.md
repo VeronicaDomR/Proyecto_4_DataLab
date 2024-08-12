@@ -99,3 +99,6 @@ En la columna product_id, se identificaron 96 valores únicos que originalmente 
 Se llevó a cabo una verificación de la consistencia y coherencia de los precios y descuentos registrados en la tabla amazon_product, con el objetivo de identificar y corregir posibles errores en los datos antes de realizar análisis más profundos o tomar decisiones informadas. Esta validación garantiza que los precios y descuentos reflejen con precisión la realidad del producto, preservando la integridad y confiabilidad de los datos.
 Se encontraron 27 product_id, que presentan algún tipo de inconsistencia entre discounted_price, actual_price y discount_percentage
 -  *Tabla: amazon_review*  
+
+Se crearon tablas intermedias para desglosar columnas que contienen múltiples valores separados por comas o puntos en la tabla proyecto4datalab.amazon.cleaned_url_content, permitiendo una manipulación y análisis más eficiente de los datos. Estos valores se combinaron luego en una consulta final.
+Las consultas para crear las tablas intermedias y combinarlas en una consulta final están disponibles en el archivo [tablas_intermedias.sql](SQL/tablas_intermedias.sql).
