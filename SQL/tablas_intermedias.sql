@@ -94,3 +94,31 @@ FROM
   UNNEST(GENERATE_ARRAY(1, ARRAY_LENGTH(user_ids))) AS pos;
 
 
+SELECT
+  a.product_id,
+  a.product_name,
+  a.category,
+  a.discounted_price,
+  a.actual_price,
+  a.discount_percentage,
+  a.about_product,
+  f.user_id,
+  g.user_name,
+  c.review_id,
+  d.review_title,
+  e.cleaned_review_content,
+  a.rating,
+  a.rating_count_clean,
+  a.adjusted_rating
+FROM
+  `proyecto4datalab.amazon.cleaned_url_content` a
+LEFT JOIN `proyecto4datalab.amazon.intermediate_user_id` f
+  ON a.product_id = f.product_id
+LEFT JOIN `proyecto4datalab.amazon.intermediate_user_name` g
+  ON a.product_id = g.product_id
+LEFT JOIN `proyecto4datalab.amazon.intermediate_review_id` c
+  ON a.product_id = c.product_id
+LEFT JOIN `proyecto4datalab.amazon.intermediate_review_title` d
+  ON a.product_id = d.product_id
+LEFT JOIN `proyecto4datalab.amazon.intermediate_cleaned_review_content` e
+  ON a.product_id = e.product_id;
