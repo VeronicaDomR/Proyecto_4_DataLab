@@ -114,9 +114,10 @@ Una vez obtenido el listado de palabras, se realizó una consulta en **BigQuery*
 
 # Análisis de Correlaciones
 
-Este documento resume el análisis de correlaciones realizado en el conjunto de datos relacionado con precios, descuentos y calificaciones de productos. El objetivo del análisis es entender las relaciones entre diferentes variables para extraer insights significativos.
+El objetivo del análisis es entender las relaciones entre diferentes variables para extraer insights significativos.
 
 ## Resultados de Correlaciones
+Puedes revisar la consulta [aquí](SQL/correlaciones.sql).
 
 1. **Correlación entre `discounted_price` y `actual_price`:** **0.962**
    - **Interpretación:** Existe una correlación muy fuerte positiva entre el precio descontado y el precio real. Esto indica que a medida que aumenta el precio real, también tiende a aumentar el precio descontado, lo cual es esperado dado que el precio descontado es una reducción del precio original.
@@ -133,7 +134,7 @@ Este documento resume el análisis de correlaciones realizado en el conjunto de 
 5. **Correlación entre `rating_count_clean` y `adjusted_rating`:** **0.097**
    - **Interpretación:** La correlación entre la cantidad de valoraciones y la calificación ajustada es muy baja. Esto indica que la cantidad de valoraciones no está claramente relacionada con la calificación ajustada del producto.
 
-## Conclusión
+## Conclusión de correlaciones
 
 - **Relación Precios:** La fuerte correlación entre el precio descontado y el precio real es esperada. Las correlaciones entre el precio descontado y otras métricas, como el número de valoraciones y la calificación ajustada, son muy bajas, indicando relaciones débiles o inexistentes.
 
