@@ -105,3 +105,5 @@ En el proceso de limpieza y transformación se comenzó pdividió la categoría 
 Adicionalmente, se analizó la columna de identificadores de usuarios, contando cuántos ID estaban presentes en cada registro. Las reseñas también fueron limpiadas de signos, emojis y otros caracteres no alfabéticos, dejando solo el texto relevante para el análisis. Estas transformaciones permiten trabajar con un conjunto de datos más estructurado y limpio, adecuado para análisis posteriores y generación de insights. Concluyendo en una sola tabla que se llama datset
 
 ![alt text](images/dataset.png)
+
+Se realizó un script en Python para analizar datos de texto y extraer listas de palabras positivas y negativas a partir de las variables review_title y cleaned_review_content. Utilizando la biblioteca TextBlob, el script identifica y clasifica adjetivos según su polaridad de sentimiento.
