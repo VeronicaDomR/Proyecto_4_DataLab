@@ -106,4 +106,4 @@ Adicionalmente, se analizó la columna de identificadores de usuarios, contando 
 
 ![alt text](images/dataset.png)
 
-Se realizó un script en Python para analizar datos de texto y extraer listas de palabras positivas y negativas a partir de las variables review_title y cleaned_review_content. Utilizando la biblioteca TextBlob, el script identifica y clasifica adjetivos según su polaridad de sentimiento.
+Se realizó un script en Python para analizar datos de texto y extraer listas de palabras positivas y negativas a partir de las variables review_title y cleaned_review_content. Utilizando la biblioteca TextBlob, el script identifica y clasifica adjetivos según su polaridad de sentimiento. [Revisar el script](python/listado_sentimientos.py).
