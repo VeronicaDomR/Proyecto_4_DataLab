@@ -106,4 +106,35 @@ Adicionalmente, se analizó la columna de identificadores de usuarios, contando 
 
 ![alt text](images/dataset.png)
 
-Se realizó un script en Python para analizar datos de texto y extraer listas de palabras positivas y negativas a partir de las variables review_title y cleaned_review_content. Utilizando la biblioteca TextBlob, el script identifica y clasifica adjetivos según su polaridad de sentimiento. [Revisar el script](python/listado_sentimientos.py).
+# Análisis de Sentimientos
+
+Este proyecto incluye un script en Python diseñado para analizar datos de texto y extraer listas de palabras positivas y negativas a partir de las variables `review_title` y `cleaned_review_content`. Utilizando la biblioteca **TextBlob**, el script identifica y clasifica adjetivos según su polaridad de sentimiento. Puedes revisar el script [aquí](python/listado_sentimientos.py).
+
+Una vez obtenido el listado de palabras, se realizó una consulta en **BigQuery** para generar variables dummy. Además, se llevó a cabo un conteo de palabras positivas y negativas, lo que permite un análisis más detallado de los sentimientos en las revisiones. Puedes revisar la consulta [aquí](SQL/variables_dummies_y_conteo.sql).
+
+# Análisis de Correlaciones
+
+Este documento resume el análisis de correlaciones realizado en el conjunto de datos relacionado con precios, descuentos y calificaciones de productos. El objetivo del análisis es entender las relaciones entre diferentes variables para extraer insights significativos.
+
+## Resultados de Correlaciones
+
+1. **Correlación entre `discounted_price` y `actual_price`:** **0.962**
+   - **Interpretación:** Existe una correlación muy fuerte positiva entre el precio descontado y el precio real. Esto indica que a medida que aumenta el precio real, también tiende a aumentar el precio descontado, lo cual es esperado dado que el precio descontado es una reducción del precio original.
+
+2. **Correlación entre `discounted_price` y `rating_count_clean`:** **-0.024**
+   - **Interpretación:** La correlación entre el precio descontado y la cantidad de valoraciones es muy baja, casi cero. Esto sugiere que el número de valoraciones no está significativamente influenciado por el precio descontado del producto.
+
+3. **Correlación entre `discounted_price` y `adjusted_rating`:** **-0.024**
+   - **Interpretación:** La correlación entre el precio descontado y la calificación ajustada es también muy baja. Esto indica que el precio descontado no tiene un impacto significativo en la calificación media ajustada del producto.
+
+4. **Correlación entre `discount_percentage` y `actual_price`:** **0.126**
+   - **Interpretación:** La correlación entre el porcentaje de descuento y el precio real es baja. Esto sugiere que no hay una relación fuerte entre el porcentaje de descuento aplicado y el precio base del producto.
+
+5. **Correlación entre `rating_count_clean` y `adjusted_rating`:** **0.097**
+   - **Interpretación:** La correlación entre la cantidad de valoraciones y la calificación ajustada es muy baja. Esto indica que la cantidad de valoraciones no está claramente relacionada con la calificación ajustada del producto.
+
+## Conclusión
+
+- **Relación Precios:** La fuerte correlación entre el precio descontado y el precio real es esperada. Las correlaciones entre el precio descontado y otras métricas, como el número de valoraciones y la calificación ajustada, son muy bajas, indicando relaciones débiles o inexistentes.
+
+
