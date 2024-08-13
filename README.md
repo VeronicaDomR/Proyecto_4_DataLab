@@ -100,5 +100,8 @@ Se llevó a cabo una verificación de la consistencia y coherencia de los precio
 Se encontraron 27 product_id, que presentan algún tipo de inconsistencia entre discounted_price, actual_price y discount_percentage
 -  *Tabla: amazon_review*  
 
-Se crearon tablas intermedias para desglosar columnas que contienen múltiples valores separados por comas o puntos en la tabla proyecto4datalab.amazon.cleaned_url_content, permitiendo una manipulación y análisis más eficiente de los datos. Estos valores se combinaron luego en una consulta final.
-Las consultas para crear las tablas intermedias y combinarlas en una consulta final están disponibles en el archivo [tablas_intermedias.sql](SQL/tablas_intermedias.sql).
+En el proceso de limpieza y transformación se comenzó pdividió la categoría de los productos en varias columnas para facilitar su análisis. También se limpió la columna que describe los productos eliminando caracteres no deseados, como emojis, paréntesis y espacios innecesarios, asegurando que el texto quedara libre de ruido.
+
+Adicionalmente, se analizó la columna de identificadores de usuarios, contando cuántos ID estaban presentes en cada registro. Las reseñas también fueron limpiadas de signos, emojis y otros caracteres no alfabéticos, dejando solo el texto relevante para el análisis. Estas transformaciones permiten trabajar con un conjunto de datos más estructurado y limpio, adecuado para análisis posteriores y generación de insights. Concluyendo en una sola tabla que se llama datset
+
+![alt text](images/dataset.png)
