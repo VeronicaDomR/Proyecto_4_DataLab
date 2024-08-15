@@ -43,3 +43,10 @@ SELECT
   1 - (6 * sum_d2) / (n * (POWER(n, 2) - 1)) AS spearman_coefficient
 FROM
   sum_d_squared
+
+#varianza
+SELECT
+  VARIANCE(total_negative_count) AS var_total_negative_count,
+  VARIANCE(avg_adjusted_rating) AS var_avg_adjusted_rating
+FROM
+  proyecto4datalab.amazon.dummies_conteo_sentimientos
