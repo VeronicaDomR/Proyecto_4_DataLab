@@ -62,6 +62,7 @@ SELECT
   
   -- Suma de conteos de palabras negativas
   (negative_count_title + negative_count_content) AS total_negative_count,
+  (positive_count_title + positive_count_content) AS total_positive_count,
 
   -- Promedio del adjusted_rating
   AVG(adjusted_rating) OVER () AS avg_adjusted_rating
