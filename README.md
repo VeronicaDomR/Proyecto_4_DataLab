@@ -164,10 +164,27 @@ La correlación global de **-0.1608** indica una relación negativa débil entre
 ![alt text](images/dispersion_gral.png)
 
 
-## Conclusiones
+## Conclusiones hipótesis 1 
 
 El análisis revela que la relación entre los descuentos y las calificaciones varía considerablemente entre diferentes categorías de productos. Mientras que en algunas categorías un mayor descuento puede estar relacionado con mejores calificaciones, en otras, la relación puede ser inversa o insignificante. Aunque los resultados globales apoyan ligeramente la hipótesis planteada, los resultados segmentados por categoría indican que la relación entre descuento y calificación no es uniforme, y en algunos casos, contradice la hipótesis inicial.
 
+**Hipótesis 2:** Un mayor número de reseñas negativas está asociado con una menor calificación promedio de los productos.
+
+![alt text](images/dispersion_hip2.png)
+
+## Metodología
+
+1. **Cálculo de Correlación**:
+   - Se calcularon las correlaciones entre el número de palabras negativas y las calificaciones promedio.
+   - Se utilizó el coeficiente de correlación de Spearman para evaluar la relación entre las variables ordinales.
+
+2. **Resultados**:
+   - **Coeficiente de Spearman**: -0.066
+   - **Correlación entre Rating Individual y Palabras Negativas**: 0.051
+
+## Resultados hipótesis 2
+
+Los resultados indican una relación muy débil entre el número de reseñas negativas y las calificaciones promedio de los productos. Tanto el coeficiente de Spearman como la correlación entre las calificaciones individuales y el número de palabras negativas sugieren que no hay evidencia significativa para apoyar la hipótesis de que un mayor número de reseñas negativas se asocia con una menor calificación promedio de los productos.
 
 
 
