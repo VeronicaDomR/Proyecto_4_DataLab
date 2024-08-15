@@ -142,7 +142,7 @@ Puedes revisar la consulta [aquí](SQL/correlaciones.sql).
 
 ## Validación de hipótesis 
 
-**Hipótesis 1:** "Los productos con mayores descuentos tienden a tener calificaciones promedio más bajas debido a la percepción de menor calidad."
+## **Hipótesis 1:** "Los productos con mayores descuentos tienden a tener calificaciones promedio más bajas debido a la percepción de menor calidad."
 
 ### Validación de la Hipótesis
 
@@ -168,7 +168,7 @@ La correlación global de **-0.1608** indica una relación negativa débil entre
 
 El análisis revela que la relación entre los descuentos y las calificaciones varía considerablemente entre diferentes categorías de productos. Mientras que en algunas categorías un mayor descuento puede estar relacionado con mejores calificaciones, en otras, la relación puede ser inversa o insignificante. Aunque los resultados globales apoyan ligeramente la hipótesis planteada, los resultados segmentados por categoría indican que la relación entre descuento y calificación no es uniforme, y en algunos casos, contradice la hipótesis inicial.
 
-**Hipótesis 2:** Un mayor número de reseñas negativas está asociado con una menor calificación promedio de los productos.
+## **Hipótesis 2:** Un mayor número de reseñas negativas está asociado con una menor calificación promedio de los productos.
 
 ![alt text](images/dispersion_hip2.png)
 
