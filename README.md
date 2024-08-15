@@ -142,6 +142,34 @@ Puedes revisar la consulta [aquí](SQL/correlaciones.sql).
 
 ## Validación de hipótesis 
 
-1. Hipótesis: "Los productos con mayores descuentos tienden a tener calificaciones promedio más bajas debido a la percepción de menor calidad."
+**Hipótesis 1:** "Los productos con mayores descuentos tienden a tener calificaciones promedio más bajas debido a la percepción de menor calidad."
+
+### Validación de la Hipótesis
+
+La correlación global de **-0.1608** indica una relación negativa débil entre el porcentaje de descuento y el rating. Este resultado sugiere que, en general, existe una tendencia a que productos con mayores descuentos tengan calificaciones ligeramente más bajas, lo cual está en línea con la hipótesis planteada. Sin embargo, la debilidad de la correlación sugiere que otros factores también pueden estar influyendo en las calificaciones.
+
+![alt text](images/dispersion_rating_discount.png)
+
+
+### Resultados Clave
+
+- **Correlación Global:** La correlación entre el porcentaje de descuento y la calificación ajustada para todos los productos es de **-0.1608**.
+  
+- **Correlación por Categoría:**
+  - **MusicalInstruments y HomeImprovement:** Correlación perfecta positiva (1.0). Estos resultados no apoyan la hipótesis, ya que indican que en estas categorías, mayores descuentos están asociados con calificaciones más altas.
+  - **Computers&Accessories, OfficeProducts y Electronics:** Correlaciones negativas leves, que sugieren que a medida que el descuento aumenta, las calificaciones tienden a disminuir ligeramente, apoyando la hipótesis.
+  - **Home&Kitchen:** Correlación positiva moderada (0.2374), lo que sugiere que un mayor descuento podría estar asociado con mejores calificaciones en esta categoría, lo cual contradice la hipótesis.
+  - **Toys&Games, Car&Motorbike y Health&PersonalCare:** No se pudo calcular la correlación debido a la falta de datos.
+
+![alt text](images/dispersion_gral.png)
+
+
+## Conclusiones
+
+El análisis revela que la relación entre los descuentos y las calificaciones varía considerablemente entre diferentes categorías de productos. Mientras que en algunas categorías un mayor descuento puede estar relacionado con mejores calificaciones, en otras, la relación puede ser inversa o insignificante. Aunque los resultados globales apoyan ligeramente la hipótesis planteada, los resultados segmentados por categoría indican que la relación entre descuento y calificación no es uniforme, y en algunos casos, contradice la hipótesis inicial.
+
+
+
+
 
 
