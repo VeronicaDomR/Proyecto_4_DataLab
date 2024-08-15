@@ -144,8 +144,6 @@ Puedes revisar la consulta [aquí](SQL/correlaciones.sql).
 
 ## **Hipótesis 1:** "Los productos con mayores descuentos tienden a tener calificaciones promedio más bajas debido a la percepción de menor calidad."
 
-### Validación de la Hipótesis
-
 La correlación global de **-0.1608** indica una relación negativa débil entre el porcentaje de descuento y el rating. Este resultado sugiere que, en general, existe una tendencia a que productos con mayores descuentos tengan calificaciones ligeramente más bajas, lo cual está en línea con la hipótesis planteada. Sin embargo, la debilidad de la correlación sugiere que otros factores también pueden estar influyendo en las calificaciones.
 
 ![alt text](images/dispersion_rating_discount.png)
