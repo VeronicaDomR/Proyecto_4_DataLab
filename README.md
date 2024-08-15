@@ -112,6 +112,8 @@ Este proyecto incluye un script en Python diseñado para analizar datos de texto
 
 Una vez obtenido el listado de palabras, se realizó una consulta en **BigQuery** para generar variables dummy. Además, se llevó a cabo un conteo de palabras positivas y negativas, lo que permite un análisis más detallado de los sentimientos en las revisiones. Puedes revisar la consulta [aquí](SQL/variables_dummies_y_conteo.sql).
 
+![alt text](images/variables_dummies_conteo.png)
+
 # Análisis de Correlaciones
 
 El objetivo del análisis es entender las relaciones entre diferentes variables para extraer insights significativos.
@@ -137,5 +139,9 @@ Puedes revisar la consulta [aquí](SQL/correlaciones.sql).
 ## Conclusión de correlaciones
 
 - **Relación Precios:** La fuerte correlación entre el precio descontado y el precio real es esperada. Las correlaciones entre el precio descontado y otras métricas, como el número de valoraciones y la calificación ajustada, son muy bajas, indicando relaciones débiles o inexistentes.
+
+## Validación de hipótesis 
+
+1. Hipótesis: "Los productos con mayores descuentos tienden a tener calificaciones promedio más bajas debido a la percepción de menor calidad."
 
 
