@@ -229,3 +229,10 @@ Este análisis sugiere que, aunque existe una asociación positiva entre las res
 ## Resultados hipótesis 4
 Los resultados respaldan parcialmente tu hipótesis. Las palabras "easy", "quality", "performance", y "speed", que están relacionadas con características específicas del producto, son frecuentes en las reseñas positivas. Esto sugiere que los usuarios valoran estas características y las mencionan cuando dejan reseñas positivas.
 
+## **Hipótesis 5:** "El análisis de sentimientos en las reseñas puede predecir con precisión la tendencia general de la satisfacción del cliente, indicando si es probable que aumente o disminuya en el futuro.”
+
+![alt text](images/hipotesis5.png)
+
+## **Hipótesis 6:** "Las categorías de productos que tienen una mayor calificación promedio también tienen una mayor satisfacción del cliente.”
+
+![alt text](images/hipotesis6_dispersion.png)
