@@ -208,7 +208,8 @@ La correlación entre el número de reseñas positivas y las calificaciones prom
 La correlación utilizando el coeficiente de Spearman fue de 0.1542, lo que también indica una relación positiva débil, pero basada en rangos ordinales.
 
 - **Regresión Lineal Simple:**
-Se realizó una regresión lineal simple para investigar esta relación en detalle. Los resultados mostraron que por cada reseña positiva adicional, la calificación promedio aumenta en 0.0115 puntos, con un intercepto de 4.0075. Las métricas de evaluación del modelo (MAE: 0.2273, MSE: 0.0897, R-squared: 0.0091) sugieren un bajo poder predictivo, confirmando la débil relación observada.
+Se realizó una regresión lineal utilizando el conteo de palabras positivas como variable independiente y la calificación promedio ajustada como variable dependiente.
+Los resultados mostraron que no existe una relación significativa entre el número de palabras positivas en una reseña y la calificación promedio ajustada del producto. 
 
 ![alt text](images/regresion_lineal_positivos.png)
 
