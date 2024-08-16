@@ -168,6 +168,8 @@ El análisis revela que la relación entre los descuentos y las calificaciones v
 
 ## **Hipótesis 2:** Un mayor número de reseñas negativas está asociado con una menor calificación promedio de los productos.
 
+Puedes revisar la consultas [aquí](SQL/hipotesis2.sql).
+
 ![alt text](images/dispersion_hip2.png)
 
 ## Metodología
@@ -189,6 +191,7 @@ Los resultados sugieren que la relación entre el número de palabras negativas 
 Esto contradice la hipótesis planteada, sugiriendo que otros factores, además del contenido negativo en las reseñas, pueden influir en las calificaciones.
 
 ## **Hipótesis 3:** Un mayor número de reseñas positivas está asociado con una mayor calificación promedio de los productos.
+Puedes revisar la consultas [aquí](SQL/hipotesis3.sql).
 
 ## Metodología
 
