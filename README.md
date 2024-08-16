@@ -217,3 +217,15 @@ Los resultados mostraron que no existe una relación significativa entre el núm
 Los resultados indican que, aunque un mayor número de reseñas positivas está asociado con una calificación promedio más alta, la relación es débil y no altamente significativa. El coeficiente de Pearson (0.1646) y el coeficiente de Spearman (0.1542) reflejan una relación positiva débil. Además, el modelo de regresión lineal muestra un incremento muy pequeño en la calificación promedio por cada reseña positiva adicional y tiene un bajo poder predictivo.
 
 Este análisis sugiere que, aunque existe una asociación positiva entre las reseñas positivas y la calificación promedio, esta relación es marginal. Se recomienda realizar un análisis más exhaustivo que podría incluir la segmentación de productos, el uso de modelos más complejos, o la incorporación de variables adicionales para comprender mejor los factores que influyen en las calificaciones promedio.
+
+## **Hipótesis 4:** "Las palabras clave más comunes en las reseñas positivas están asociadas con características específicas del producto, como la facilidad de uso o el rendimiento.”
+
+   - "easy" (facilidad de uso): Aparece 743 veces, lo que sugiere que la facilidad de uso es una característica comúnmente mencionada en las reseñas positivas.
+   - "performance" (rendimiento): Aparece 214 veces, lo que indica que el rendimiento también es un factor relevante, aunque menos frecuente que la facilidad de uso.
+   - "quality" (calidad): Con 1927 menciones, la calidad del producto es claramente una de las características más valoradas en las reseñas positivas.
+   - "user" (relacionado con la experiencia del usuario): Aparece 118 veces, lo que podría estar asociado con la facilidad de uso o la experiencia general del usuario.
+   - "speed" (velocidad): Aparece 339 veces, lo que puede estar relacionado con el rendimiento o la eficiencia del producto.
+
+## Resultados hipótesis 4
+Los resultados respaldan parcialmente tu hipótesis. Las palabras "easy", "quality", "performance", y "speed", que están relacionadas con características específicas del producto, son frecuentes en las reseñas positivas. Esto sugiere que los usuarios valoran estas características y las mencionan cuando dejan reseñas positivas.
+
