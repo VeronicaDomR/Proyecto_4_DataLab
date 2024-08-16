@@ -172,19 +172,19 @@ El análisis revela que la relación entre los descuentos y las calificaciones v
 
 ## Metodología
 
-1. **Cálculo de Correlación**:
-   - Se calcularon las correlaciones entre el número de palabras negativas y las calificaciones promedio.
-   - Se utilizó el coeficiente de correlación de Spearman para evaluar la relación entre las variables ordinales.
+Para validar esta hipótesis, se implementó el siguiente enfoque:
 
-2. **Resultados**:
-   - **Coeficiente de Spearman**: -0.066
-   - **Correlación entre Rating Individual y Palabras Negativas**: 0.051
+   - Se calcularon las correlaciones entre el número de palabras negativas presentes en las reseñas y las calificaciones promedio de los productos.
+   - Se empleó el coeficiente de correlación de Spearman para medir la relación entre las variables ordinales.
+
+   - **Coeficiente de Spearman**: 
+La correlación entre el número de palabras negativas y las calificaciones promedio arrojó un coeficiente de Spearman de -0.066, lo cual sugiere una relación negativa extremadamente débil entre ambas variables.
+- **Correlación entre Rating Individual y Palabras Negativas**:
+La correlación entre las calificaciones individuales y el número de palabras negativas en las reseñas fue de 0.051, indicando una relación casi inexistente.
 
 ## Resultados hipótesis 2
 
-Los resultados indican una relación muy débil entre el número de reseñas negativas y las calificaciones promedio de los productos. Tanto el coeficiente de Spearman como la correlación entre las calificaciones individuales y el número de palabras negativas sugieren que no hay evidencia significativa para apoyar la hipótesis de que un mayor número de reseñas negativas se asocia con una menor calificación promedio de los productos.
+Los resultados sugieren que la relación entre el número de palabras negativas en las reseñas y las calificaciones promedio de los productos es débil y no significativa. El coeficiente de Spearman (-0.066) refleja una tendencia negativa marginal, mientras que la correlación entre las calificaciones individuales y las palabras negativas (0.051) indica que no hay suficiente evidencia para concluir que un mayor número de reseñas negativas tenga un impacto significativo en la disminución de la calificación promedio de los productos.
 
-
-
-
+Esto contradice la hipótesis planteada, sugiriendo que otros factores, además del contenido negativo en las reseñas, pueden influir en las calificaciones.
 
