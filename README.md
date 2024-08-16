@@ -188,3 +188,26 @@ Los resultados sugieren que la relación entre el número de palabras negativas 
 
 Esto contradice la hipótesis planteada, sugiriendo que otros factores, además del contenido negativo en las reseñas, pueden influir en las calificaciones.
 
+## **Hipótesis 3:** Un mayor número de reseñas positivas está asociado con una mayor calificación promedio de los productos.
+
+## Metodología
+
+Para evaluar esta hipótesis, se aplicó el siguiente enfoque:
+
+   - Se calcularon las correlaciones entre el número de reseñas positivas y las calificaciones promedio de los productos.
+
+   - Se utilizaron tanto el coeficiente de correlación de Pearson como el coeficiente de Spearman para medir la relación entre las variables.
+
+- **Coeficiente de Pearson:**
+La correlación entre el número de reseñas positivas y las calificaciones promedio fue de 0.1646, sugiriendo una relación positiva débil entre ambas variables.
+
+- **Coeficiente de Spearman:**
+La correlación utilizando el coeficiente de Spearman fue de 0.1542, lo que también indica una relación positiva débil, pero basada en rangos ordinales.
+
+- **Regresión Lineal Simple:**
+Se realizó una regresión lineal simple para investigar esta relación en detalle. Los resultados mostraron que por cada reseña positiva adicional, la calificación promedio aumenta en 0.0115 puntos, con un intercepto de 4.0075. Las métricas de evaluación del modelo (MAE: 0.2273, MSE: 0.0897, R-squared: 0.0091) sugieren un bajo poder predictivo, confirmando la débil relación observada.
+
+## Resultados hipótesis 3
+Los resultados indican que, aunque un mayor número de reseñas positivas está asociado con una calificación promedio más alta, la relación es débil y no altamente significativa. El coeficiente de Pearson (0.1646) y el coeficiente de Spearman (0.1542) reflejan una relación positiva débil. Además, el modelo de regresión lineal muestra un incremento muy pequeño en la calificación promedio por cada reseña positiva adicional y tiene un bajo poder predictivo.
+
+Este análisis sugiere que, aunque existe una asociación positiva entre las reseñas positivas y la calificación promedio, esta relación es marginal. Se recomienda realizar un análisis más exhaustivo que podría incluir la segmentación de productos, el uso de modelos más complejos, o la incorporación de variables adicionales para comprender mejor los factores que influyen en las calificaciones promedio.
