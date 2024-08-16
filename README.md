@@ -210,6 +210,8 @@ La correlación utilizando el coeficiente de Spearman fue de 0.1542, lo que tamb
 - **Regresión Lineal Simple:**
 Se realizó una regresión lineal simple para investigar esta relación en detalle. Los resultados mostraron que por cada reseña positiva adicional, la calificación promedio aumenta en 0.0115 puntos, con un intercepto de 4.0075. Las métricas de evaluación del modelo (MAE: 0.2273, MSE: 0.0897, R-squared: 0.0091) sugieren un bajo poder predictivo, confirmando la débil relación observada.
 
+![alt text](images/regresion_lineal_positivos.png)
+
 ## Resultados hipótesis 3
 Los resultados indican que, aunque un mayor número de reseñas positivas está asociado con una calificación promedio más alta, la relación es débil y no altamente significativa. El coeficiente de Pearson (0.1646) y el coeficiente de Spearman (0.1542) reflejan una relación positiva débil. Además, el modelo de regresión lineal muestra un incremento muy pequeño en la calificación promedio por cada reseña positiva adicional y tiene un bajo poder predictivo.
 
