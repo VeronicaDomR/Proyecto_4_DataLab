@@ -146,8 +146,7 @@ Puedes revisar la consulta [aquí](SQL/correlaciones.sql).
 
 La correlación global de **-0.1608** indica una relación negativa débil entre el porcentaje de descuento y el rating. Este resultado sugiere que, en general, existe una tendencia a que productos con mayores descuentos tengan calificaciones ligeramente más bajas, lo cual está en línea con la hipótesis planteada. Sin embargo, la debilidad de la correlación sugiere que otros factores también pueden estar influyendo en las calificaciones.
 
-![alt text](images/dispersion_rating_discount.png)
-
+![alt text](images/dispersionrating_discount.png)
 
 ### Resultados Clave
 
@@ -159,7 +158,7 @@ La correlación global de **-0.1608** indica una relación negativa débil entre
   - **Home&Kitchen:** Correlación positiva moderada (0.2374), lo que sugiere que un mayor descuento podría estar asociado con mejores calificaciones en esta categoría, lo cual contradice la hipótesis.
   - **Toys&Games, Car&Motorbike y Health&PersonalCare:** No se pudo calcular la correlación debido a la falta de datos.
 
-![alt text](images/dispersion_gral.png)
+![alt text](images/dispersiongral.png)
 
 
 ## Conclusiones hipótesis 1 
