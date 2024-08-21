@@ -253,3 +253,5 @@ Puedes revisar la consulta [aquí](SQL/riesgos_relativos.sql).
    Para evaluar cómo los descuentos afectan la percepción del cliente, se calculó el riesgo relativo:
    
    - **Ratio de Riesgo = 2**: Los productos con un "Alto Descuento" tienen el doble de probabilidad de recibir una "Baja Calificación" en comparación con los productos con un "Descuento Bajo/No Descuento".
+
+2. 
