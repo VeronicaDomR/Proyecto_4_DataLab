@@ -170,7 +170,7 @@ El análisis revela que la relación entre los descuentos y las calificaciones v
 
 Puedes revisar la consultas [aquí](SQL/hipotesis2.sql).
 
-![alt text](images/dispersion_hip2.png)
+![alt text](images/disp_hip2.png)
 
 ## Metodología
 
