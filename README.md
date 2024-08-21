@@ -232,6 +232,14 @@ Los resultados respaldan parcialmente la hipótesis. Las palabras "easy", "quali
 
 ![alt text](images/hipotesis5.png)
 
+Existe una correlación significativa entre las reseñas con sentimientos positivos y un aumento en la satisfacción del cliente, mientras que las reseñas con sentimientos negativos tienden a predecir una disminución en la satisfacción.
+
+Este patrón sugiere que el análisis de sentimientos en las reseñas puede ser un predictor confiable de las futuras tendencias de satisfacción del cliente. 
+
 ## **Hipótesis 6:** "Las categorías de productos que tienen una mayor calificación promedio también tienen una mayor satisfacción del cliente.”
 
 ![alt text](images/hipotesis6_dispersion.png)
+
+El gráfico de dispersión presentado explora la relación entre la calificación promedio de las categorías de productos y la proporción de reseñas positivas, como un indicador de la satisfacción del cliente. Aunque se observa una tendencia leve en la que las categorías con una calificación promedio más alta tienen una mayor proporción de reseñas positivas, la relación no es lo suficientemente fuerte como para concluir que una calificación promedio más alta siempre implica una mayor satisfacción del cliente.
+
+Esto sugiere que, si bien la calificación promedio puede ser un factor importante, otros elementos también podrían estar influyendo en la percepción general y satisfacción de los clientes.
