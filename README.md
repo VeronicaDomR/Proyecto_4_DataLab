@@ -190,7 +190,7 @@ Los resultados sugieren que la relación entre el número de palabras negativas 
 Esto contradice la hipótesis planteada, sugiriendo que otros factores, además del contenido negativo en las reseñas, pueden influir en las calificaciones.
 
 ## **Hipótesis 3:** Un mayor número de reseñas positivas está asociado con una mayor calificación promedio de los productos.
-Puedes revisar la consultas [aquí](SQL/hipotesis3.sql).
+Puedes revisar la consulta [aquí](SQL/hipotesis3.sql).
 
 ## Metodología
 
@@ -243,3 +243,13 @@ Este patrón sugiere que el análisis de sentimientos en las reseñas puede ser 
 El gráfico de dispersión presentado explora la relación entre la calificación promedio de las categorías de productos y la proporción de reseñas positivas, como un indicador de la satisfacción del cliente. Aunque se observa una tendencia leve en la que las categorías con una calificación promedio más alta tienen una mayor proporción de reseñas positivas, la relación no es lo suficientemente fuerte como para concluir que una calificación promedio más alta siempre implica una mayor satisfacción del cliente.
 
 Esto sugiere que, si bien la calificación promedio puede ser un factor importante, otros elementos también podrían estar influyendo en la percepción general y satisfacción de los clientes.
+
+## Riesgo Relativo
+
+1. **Categoría de Descuento vs Categoría de Calificación**
+
+Puedes revisar la consulta [aquí](SQL/riesgos_relativos.sql).
+
+   Para evaluar cómo los descuentos afectan la percepción del cliente, se calculó el riesgo relativo:
+   
+   - **Ratio de Riesgo = 2**: Los productos con un "Alto Descuento" tienen el doble de probabilidad de recibir una "Baja Calificación" en comparación con los productos con un "Descuento Bajo/No Descuento".
