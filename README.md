@@ -15,9 +15,9 @@
 El objetivo de este análisis es entender las tendencias y patrones en las calificaciones y reseñas de productos disponibles en Amazon, con el fin de proporcionar insights que puedan ayudar a mejorar la satisfacción del cliente.
 
 
-## Herramientas
-
-## Lenguajes
+## Herramientas y Lenguajes
+- Herramientas: BigQuery, Tableau, Python, Visual Studio
+- Lenguajes: SQL, Python
 
 ## Procesamiento y preparación de datos
 
