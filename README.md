@@ -271,3 +271,13 @@ Se identificó el sentimiento negativo en las reseñas de productos, buscando pa
 El riesgo relativo calculado es 2, lo que indica que la probabilidad de que una reseña con sentimiento negativo esté asociada con una calificación baja (adjusted_rating < 3) es el doble de la probabilidad de que una reseña con sentimiento neutral o positivo esté vinculada a una calificación baja.
 
 Este hallazgo sugiere que las reseñas que contienen términos negativos tienen una mayor probabilidad de correlacionarse con calificaciones más bajas, lo que resalta la importancia de atender las preocupaciones de los clientes expresadas a través de estas palabras clave específicas.
+
+## Análisis de Significancia Estadística:
+
+## Resultados
+
+- OfficeProducts tiene la calificación promedio más alta (4.31), lo que sugiere una alta satisfacción del cliente.
+- Car&Motorbike tiene la calificación promedio más baja (3.8), lo que podría indicar posibles problemas de calidad o satisfacción en esta categoría.
+- **Proporción de Reseñas Negativas**
+- La mayoría de las categorías tienen un valor de 0.0 para la proporción de reseñas negativas, lo que sugiere que no hay muchas reseñas con una calificación inferior a 3.
+- Electronics y Home&Kitchen son las únicas categorías con un ratio de reseñas negativas mayor a 0, lo que podría ser un indicador de problemas específicos en estas categorías.
