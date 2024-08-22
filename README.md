@@ -254,4 +254,11 @@ Puedes revisar la consulta [aquí](SQL/riesgos_relativos.sql).
    
    - **Ratio de Riesgo = 2**: Los productos con un "Alto Descuento" tienen el doble de probabilidad de recibir una "Baja Calificación" en comparación con los productos con un "Descuento Bajo/No Descuento".
 
-2. 
+2. **Riesgo Relativo de una Calificación Alta por Categoría de Producto**
+Puedes revisar la consulta [aquí](SQL/riesgos_relativos.sql).
+![alt text](images/rr_categoria.png)
+   - Computers&Accessories: Tiene un riesgo relativo alto (4.68), lo que significa que los productos en esta categoría tienen una probabilidad significativamente mayor de recibir calificaciones altas.
+
+   - Home&Kitchen y Electronics también muestran un riesgo relativo elevado, indicando una tendencia favorable en estas categorías.
+
+   - MusicalInstruments tiene un riesgo relativo de 1.0, lo que sugiere que no hay diferencia en la probabilidad de recibir calificaciones altas o bajas.
