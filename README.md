@@ -264,5 +264,10 @@ Puedes revisar la consulta [aquí](SQL/rr_categoria.sql).
    - MusicalInstruments tiene un riesgo relativo de 1.0, lo que sugiere que no hay diferencia en la probabilidad de recibir calificaciones altas o bajas.
 
 3. **Riesgo Relativo de Calificaciones según el Contenido de las Reseñas**
-Puedes revisar la consulta [aquí](SQL/rr_categoria.sql).
+Puedes revisar la consulta [aquí](SQL/rr_sentimientonegativo.sql).
 
+Se identificó el sentimiento negativo en las reseñas de productos, buscando palabras clave específicas como "difficult", "worst", "jammed", "infamous", "bad", "flat", entre otras. Las reseñas que contenían alguno de estos términos se clasificaron como "Negativas", mientras que las demás se categorizaron como "Neutrales/Positivas".
+
+El riesgo relativo calculado es 2, lo que indica que la probabilidad de que una reseña con sentimiento negativo esté asociada con una calificación baja (adjusted_rating < 3) es el doble de la probabilidad de que una reseña con sentimiento neutral o positivo esté vinculada a una calificación baja.
+
+Este hallazgo sugiere que las reseñas que contienen términos negativos tienen una mayor probabilidad de correlacionarse con calificaciones más bajas, lo que resalta la importancia de atender las preocupaciones de los clientes expresadas a través de estas palabras clave específicas.
