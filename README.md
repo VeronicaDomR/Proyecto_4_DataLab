@@ -274,6 +274,48 @@ Este hallazgo sugiere que las reseñas que contienen términos negativos tienen 
 
 ## Análisis de Significancia Estadística:
 
+Se realizó un análisis ANOVA para evaluar si existen diferencias significativas en las calificaciones promedio entre las distintas categorías de productos. Las categorías consideradas son:
+
+- OfficeProducts
+- Toys&Games
+- HomeImprovement
+- Computers&Accessories
+- Electronics
+- Home&Kitchen
+- Health&PersonalCare
+- MusicalInstruments
+- Car&Motorbike
+
+**Resultados del ANOVA:**
+
+- **F-statistic:** 3.6458
+- **p-value:** 0.0053
+
+El valor del F-statistic indica una alta variabilidad entre las categorías, mientras que el p-value sugiere que al menos una categoría tiene una calificación promedio significativamente diferente de las demás.
+
+![alt text](images/boxplot.png)
+
+Prueba de Tukey HSD (Honest Significant Difference)
+Para identificar específicamente qué categorías presentan diferencias significativas en sus calificaciones promedio, se realizó una prueba de Tukey HSD. Los resultados muestran las comparaciones entre todas las categorías y destacan las diferencias significativas:
+
+- **Comparaciones Significativas:**
+
+   - **Car&Motorbike vs HomeImprovement**
+      - Diferencia de Media: 0.275
+      - p-valor Ajustado: 0.0496
+
+   - **Car&Motorbike vs OfficeProducts**
+      - Diferencia de Media: 0.325
+      - p-valor Ajustado: 0.0117
+
+   - **Car&Motorbike vs Toys&Games**
+      - Diferencia de Media: 0.35
+      - p-valor Ajustado: 0.0055
+
+![alt text](images/diferenciasdemedia.png)
+
+Las diferencias significativas entre estas categorías indican que las calificaciones promedio varían de manera estadísticamente significativa. Las demás comparaciones no muestran diferencias significativas en las calificaciones promedio.
+
 ## Resultados
 
 - OfficeProducts tiene la calificación promedio más alta (4.31), lo que sugiere una alta satisfacción del cliente.
