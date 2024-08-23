@@ -316,8 +316,16 @@ Para identificar específicamente qué categorías presentan diferencias signifi
 
 Las diferencias significativas entre estas categorías indican que las calificaciones promedio varían de manera estadísticamente significativa. Las demás comparaciones no muestran diferencias significativas en las calificaciones promedio.
 
-## Regresión Logistica 
+## Regresión Lineal
+Puedes revisar la consulta [aquí](python/regresión_logistica.ipynb).
+![alt text](images/regresionlineal.png)
 
+## Regresión Logistica 
+Puedes revisar la consulta [aquí](python/regresión_logistica.ipynb).
+
+![alt text](images/regresion_logistica.png)
+
+El gráfico muestra que con un número pequeño de palabras positivas (menos de 15), las reseñas son clasificadas como de baja calificación (0). A medida que el número de palabras positivas aumenta (más de 15), el modelo clasifica las reseñas como de alta calificación (1).
 
 ## Resultados
 
