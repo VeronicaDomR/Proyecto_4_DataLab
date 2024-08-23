@@ -317,8 +317,12 @@ Para identificar específicamente qué categorías presentan diferencias signifi
 Las diferencias significativas entre estas categorías indican que las calificaciones promedio varían de manera estadísticamente significativa. Las demás comparaciones no muestran diferencias significativas en las calificaciones promedio.
 
 ## Regresión Lineal
-Puedes revisar la consulta [aquí](python/regresión_logistica.ipynb).
+Puedes revisar la consulta [aquí](python/regresionlineal.ipynb).
 ![alt text](images/regresionlineal.png)
+
+El gráfico muestra una relación positiva entre el número de palabras positivas y la calificación promedio ajustada. Esto significa que a medida que el número de palabras positivas en una reseña aumenta, la calificación promedio ajustada tiende a ser mayor.
+
+- **Fuerza de la Relación:** Aunque la relación es positiva, el coeficiente de 0.029 indica que la relación es relativamente débil. Un aumento en una palabra positiva solo incrementa la calificación en 0.029, lo cual es un incremento pequeño.
 
 ## Regresión Logistica 
 Puedes revisar la consulta [aquí](python/regresión_logistica.ipynb).
