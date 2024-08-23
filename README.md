@@ -360,3 +360,6 @@ El gráfico muestra que con un número pequeño de palabras positivas (menos de 
 
 ### 8. Categorías de Productos y Riesgo Relativo
 - Las categorías de productos con calificaciones promedio más altas tienden a reflejar una mayor satisfacción del cliente, pero esta relación no es universal. Es crucial considerar el riesgo relativo al establecer estrategias de descuento y marketing, especialmente en categorías específicas.
+
+## Dashboard
+Puedes acceder a mi dashboard en Tableau haciendo clic  [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/AmazonProductReviewsAnalysis_17244527852360/AmazonProductReviewsAnalysis?publish=yes).
