@@ -316,6 +316,9 @@ Para identificar específicamente qué categorías presentan diferencias signifi
 
 Las diferencias significativas entre estas categorías indican que las calificaciones promedio varían de manera estadísticamente significativa. Las demás comparaciones no muestran diferencias significativas en las calificaciones promedio.
 
+## Regresión Logistica 
+
+
 ## Resultados
 
 - OfficeProducts tiene la calificación promedio más alta (4.31), lo que sugiere una alta satisfacción del cliente.
@@ -323,3 +326,5 @@ Las diferencias significativas entre estas categorías indican que las calificac
 - **Proporción de Reseñas Negativas**
 - La mayoría de las categorías tienen un valor de 0.0 para la proporción de reseñas negativas, lo que sugiere que no hay muchas reseñas con una calificación inferior a 3.
 - Electronics y Home&Kitchen son las únicas categorías con un ratio de reseñas negativas mayor a 0, lo que podría ser un indicador de problemas específicos en estas categorías.
+
+
