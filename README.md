@@ -331,12 +331,32 @@ Puedes revisar la consulta [aquí](python/regresión_logistica.ipynb).
 
 El gráfico muestra que con un número pequeño de palabras positivas (menos de 15), las reseñas son clasificadas como de baja calificación (0). A medida que el número de palabras positivas aumenta (más de 15), el modelo clasifica las reseñas como de alta calificación (1).
 
-## Resultados
+## Resultados del Análisis
 
-- OfficeProducts tiene la calificación promedio más alta (4.31), lo que sugiere una alta satisfacción del cliente.
-- Car&Motorbike tiene la calificación promedio más baja (3.8), lo que podría indicar posibles problemas de calidad o satisfacción en esta categoría.
-- **Proporción de Reseñas Negativas**
-- La mayoría de las categorías tienen un valor de 0.0 para la proporción de reseñas negativas, lo que sugiere que no hay muchas reseñas con una calificación inferior a 3.
-- Electronics y Home&Kitchen son las únicas categorías con un ratio de reseñas negativas mayor a 0, lo que podría ser un indicador de problemas específicos en estas categorías.
+### 1. Calificaciones Promedio y Satisfacción del Cliente
+- **OfficeProducts** destaca con la calificación promedio más alta (4.31), lo que sugiere una alta satisfacción del cliente.
+- **Car&Motorbike** presenta la calificación promedio más baja (3.8), lo que podría indicar posibles problemas de calidad o satisfacción en esta categoría.
 
+### 2. Proporción de Reseñas Negativas
+- La mayoría de las categorías muestran una proporción de reseñas negativas de 0.0, lo que sugiere una escasez de reseñas con calificaciones inferiores a 3.
+- **Electronics** y **Home&Kitchen** son las únicas categorías con un ratio de reseñas negativas superior a 0, lo que podría indicar problemas específicos dentro de estas categorías.
 
+### 3. Relación entre Descuentos y Calificaciones
+- **Correlación Global:** La correlación entre los descuentos y las calificaciones de los productos es débil, lo que indica que los descuentos no tienen un impacto significativo en la satisfacción del cliente.
+- **Variación por Categoría:** A pesar de la correlación global débil, algunas categorías, especialmente **Electronics**, muestran una relación más fuerte, sugiriendo que en ciertos casos, los descuentos pueden influir más en la percepción del cliente.
+
+### 4. Validación de Hipótesis sobre Satisfacción del Cliente
+- La hipótesis de que las categorías con mejores calificaciones promedio reflejan una mayor satisfacción del cliente no es uniforme. Esto sugiere que la satisfacción del cliente puede depender de otros factores específicos de cada categoría, como la calidad percibida, el precio, o la experiencia del cliente.
+
+### 5. Impacto de las Reseñas Negativas y Positivas
+- El número de reseñas negativas no parece tener un impacto significativo en las calificaciones promedio.
+- Por otro lado, un mayor número de reseñas positivas muestra una relación leve con calificaciones más altas, aunque esta relación es marginal.
+
+### 6. Valoración de Características Específicas del Producto
+- Las palabras clave relacionadas con la facilidad de uso, rendimiento, calidad, y velocidad son recurrentes en las reseñas positivas. Enfocarse en mejorar estas características podría contribuir a elevar la satisfacción del cliente y fomentar reseñas positivas.
+
+### 7. Análisis de Sentimientos como Predictor de Satisfacción
+- El análisis de sentimientos en las reseñas puede ser útil para predecir tendencias futuras en la satisfacción del cliente. Incorporar este análisis en la estrategia de gestión de productos podría proporcionar información valiosa sobre las percepciones del cliente.
+
+### 8. Categorías de Productos y Riesgo Relativo
+- Las categorías de productos con calificaciones promedio más altas tienden a reflejar una mayor satisfacción del cliente, pero esta relación no es universal. Es crucial considerar el riesgo relativo al establecer estrategias de descuento y marketing, especialmente en categorías específicas.
