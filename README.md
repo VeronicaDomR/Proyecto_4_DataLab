@@ -363,3 +363,6 @@ El gráfico muestra que con un número pequeño de palabras positivas (menos de 
 
 ## Dashboard
 Puedes acceder a mi dashboard en Tableau haciendo clic  [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/AmazonProductReviewsAnalysis_17244527852360/AmazonProductReviewsAnalysis?publish=yes).
+
+## Presentación
+Puedes acceder a mi presentación haciendo clic [aquí](https://www.canva.com/design/DAGPEdqGv8U/UQD5S0xLZGcZMfS5nYYQvA/view?utm_content=DAGPEdqGv8U&utm_campaign=designshare&utm_medium=link&utm_source=editor)
